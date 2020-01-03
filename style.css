@@ -1,45 +1,49 @@
 .header {
     overflow: hidden;
-    background-color: #433E35;
-    padding: 20px 10px;
+    background-color: #8C8A88;
+    padding: 10px 10px;
 }
 
 .header a {
-  float: left;
-  color: #F2F2F0;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+    float: left;
+    color: #F2F2F0;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: sans-serif;
 }
 
 .header a.home-title {
-  font-size: 25px;
-  font-weight: bold;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #AEFF14;
 }
 
 .header a:hover {
-  background-color: #8C8A88;
-  color: black;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #AEFF14;
 }
 
 .header a.active {
-  color: #E6BDAA;
+    color: #AEFF14;
 }
 
 .header-right {
-  float: right;
+    float: right;
 }
 
 @media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
 }
