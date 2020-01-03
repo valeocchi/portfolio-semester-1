@@ -1,27 +1,45 @@
-.burger-menu{
-    display: inline-block;
-    cursor: pointer;
-}
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-/* Rotate first bar */
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+.header {
+    overflow: hidden;
+    background-color: #433E35;
+    padding: 20px 10px;
 }
 
-/* Fade out the second bar */
-.change .bar2 {
-  opacity: 0;
+.header a {
+  float: left;
+  color: #F2F2F0;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
 }
 
-/* Rotate last bar */
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+.header a.home-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #8C8A88;
+  color: black;
+}
+
+.header a.active {
+  color: #E6BDAA;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
 }
