@@ -1,16 +1,14 @@
 h1 {
     font-family: sans-serif;
-    color: white;
+    color: black;
     text-decoration: underline;
     text-decoration-color: #AEFF14
 }
 p{
     font-family: sans-serif;
-    color: white;
+    color: black;
 }
-body{
-    background-color: #9d9d9d;
-}
+
 /**HEADER**/
 .header {
     overflow: hidden;
@@ -65,7 +63,28 @@ body{
 
 /**ABOUT ME PAGE**/
 .bw-me{
-    width: 30vw;
-    height: auto;
-    padding: 10px;
+    width: auto;
+    height: 60vh;
+    padding: 20px;
+    grid-area: bw;
+}
+
+/*GRID*/
+
+.about-text{
+    padding: 20px;
+    grid-area: abt-txt;
+}
+@media screen and (min-width: 500px){
+    .about-grid{
+        display: grid;
+        grid-template-areas: '. bw abt-txt .';
+    }
+}
+@media screen and (max-width: 500px){
+    .about-grid{
+        display: grid;
+        grid-template-areas: '. bw . .'
+            '. abt-txt  . .';
+    }
 }
