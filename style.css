@@ -1,12 +1,22 @@
+footer{
+    background: #AEFF14;
+}
 h1 {
     font-family: sans-serif;
-    color: black;
+    color: grey;
     text-decoration: underline;
-    text-decoration-color: #AEFF14
+    text-decoration-color: #AEFF14;
+}
+h2{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
 }
 p{
+    text-align: justify;
     font-family: sans-serif;
-    color: black;
+    color: grey;
 }
 
 /**HEADER**/
@@ -60,6 +70,56 @@ p{
     }
 }
 
+/*HOME PAGE*/
+
+/*NEON SIGN*/
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+.neon-name{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.valeria{
+    font-family: neon;
+    color: #FB4264;
+    font-size: 9vw;
+    line-height: 9vw;
+    text-shadow: 0 0 3vw #F40A35;
+}
+.occhi{
+    font-family: neon;
+  color: #426DFB;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+}
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes valeria {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.occhi {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
 
 /**ABOUT ME PAGE**/
 .bw-me{
@@ -74,7 +134,9 @@ p{
 .about-text{
     padding: 20px;
     grid-area: abt-txt;
+
 }
+
 @media screen and (min-width: 500px){
     .about-grid{
         display: grid;
