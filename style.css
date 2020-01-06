@@ -158,14 +158,20 @@ body {
 
 /**PORTFOLIO PAGE**/
 .theme-box {
+    text-decoration-color: #AEFF14;
     font-family: sans-serif, bold;
     font-size: 20px;
-    color: #AEFF14;
+    color: white;
     display: grid;
 }
 
 .theme-2 {
-    background: grey;
+    text-decoration-color: #AEFF14;
+    font-family: sans-serif, bold;
+    font-size: 20px;
+    color: black;
+    display: grid;
+    background: white;
     width: 250px;
     height: 250px;
     line-height: 30vh;
@@ -175,7 +181,12 @@ body {
 }
 
 .theme-3 {
-    background: grey;
+    text-decoration-color: #AEFF14;
+    font-family: sans-serif, bold;
+    font-size: 20px;
+    color: black;
+    display: grid;
+    background: white;
     width: 250px;
     height: 250px;
     line-height: 30vh;
@@ -185,7 +196,12 @@ body {
 }
 
 .theme-4 {
-    background: grey;
+    text-decoration-color: #AEFF14;
+    font-family: sans-serif, bold;
+    font-size: 20px;
+    color: black;
+    display: grid;
+    background: white;
     width: 250px;
     height: 250px;
     line-height: 30vh;
@@ -195,7 +211,12 @@ body {
 }
 
 .theme-5 {
-    background: grey;
+    text-decoration-color: #AEFF14;
+    font-family: sans-serif, bold;
+    font-size: 20px;
+    color: black;
+    display: grid;
+    background: white;
     width: 250px;
     height: 250px;
     line-height: 30vh;
