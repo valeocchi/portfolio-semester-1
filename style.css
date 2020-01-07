@@ -26,6 +26,13 @@ h2 {
     font-family: sans-serif;
 }
 
+h3{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
 p {
     margin-left: 10vw;
     margin-right: 10vw;
@@ -40,7 +47,9 @@ body {
     height: 100%;
     background-color: black;
 }
-
+main{
+    margin-bottom: 50vh;
+}
 /**HEADER**/
 .header {
     overflow: hidden;
@@ -101,10 +110,11 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    flex-flow: right;
 }
 
 .valeria {
+    padding-left: 15vw;
+    text-align: center;
     font-family: 'Cute Font', cursive;
     color: #AEFF14;
     font-size: 9vw;
@@ -113,19 +123,19 @@ body {
 }
 
 .occhi {
-    padding-left: 20vw;
+    padding-left: 18vw;
     text-align: center;
     font-family: 'Cute Font', cursive;
     color: white;
-    font-size: 20vw;
+    font-size: 15vw;
     line-height: 15vw;
     text-shadow: 0 0 3vw white;
 }
 
 .valeria {
     animation: valeria 1s ease infinite;
-    -moz-animation: valeria 1s ease infinite;
-    -webkit-animation: valeria 1s ease infinite;
+    animation: valeria 1s ease infinite;
+    animation: valeria 1s ease infinite;
 }
 
 @keyframes valeria {
@@ -144,9 +154,9 @@ body {
 
 .occhi {
     animation: occhi 2s linear infinite;
-    -moz-animation: occhi 2s linear infinite;
-    -webkit-animation: occhi 2s linear infinite;
-    -o-animation: occhi 2s linear infinite;
+    animation: occhi 2s linear infinite;
+    animation: occhi 2s linear infinite;
+    animation: occhi 2s linear infinite;
 }
 
 @keyframes occhi {
@@ -169,6 +179,7 @@ body {
     height: 60vh;
     padding: 20px;
     grid-area: bw;
+    padding-left: 15vw;
 }
 
 /**PORTFOLIO PAGE**/
@@ -289,10 +300,10 @@ body {
 }
 /*design sprint*/
 .sprint-image{
-    padding-left: 10vw;
+    padding-left: 20vw;
 }
 .sprint-1{
-    width: 80vw;
+    width: 60vw;
     height: auto;
 }
 /**BASIC ANIMATION**/
@@ -317,6 +328,20 @@ body {
     width: 40vw;
     height: auto;
 }
+
+/**BASIC CONTENT**/
+/*Foodsharing Copenhagen*/
+.foodsharing-images{
+    padding-left: 20vw;
+}
+.video-1{
+    width: 30vw;
+    height: auto;
+}
+.video-2{
+    width: 30vw;
+    height: auto;
+}
 /*GRID PORTFOLIO*/
 @media screen and (min-width: 500px) {
     .theme-box {
@@ -333,7 +358,7 @@ body {
         padding-left: 20vw;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1f 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas: 'th-2 '
             'th-3'
             'th-4'
