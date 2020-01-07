@@ -240,7 +240,20 @@ body {
     grid-area: th-5;
 }
 /**BASIC WEB PAGE**/
-
+.images-basic-web{
+    padding-left: 17vw;
+}
+.bauhaus-sign{
+    padding: 20px;
+    width: 30vw;
+    height: auto;
+}
+.logo{
+    margin: 20px;
+    background: white;
+    width: 30vw;
+    height: auto;
+}
 /*GRID PORTFOLIO*/
 @media screen and (min-width: 500px) {
     .theme-box {
