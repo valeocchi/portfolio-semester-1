@@ -99,7 +99,7 @@ body {
 .neon-name {
     padding: 30px;
     display: table-cell;
-    text-align: right;
+    text-align: center;
     vertical-align: middle;
     flex-flow: right;
 }
@@ -113,10 +113,12 @@ body {
 }
 
 .occhi {
+    padding-left: 20vw;
+    text-align: center;
     font-family: 'Cute Font', cursive;
     color: white;
-    font-size: 9vw;
-    line-height: 9vw;
+    font-size: 20vw;
+    line-height: 15vw;
     text-shadow: 0 0 3vw white;
 }
 
