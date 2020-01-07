@@ -287,6 +287,36 @@ body {
     width: 23vw;
     height: auto;
 }
+/*design sprint*/
+.sprint-image{
+    padding-left: 10vw;
+}
+.sprint-1{
+    width: 80vw;
+    height: auto;
+}
+/**BASIC ANIMATION**/
+/*sprite animation*/
+.sprite-image{
+    padding-left: 8vw;
+}
+.cloud{
+    background: white;
+    width: 85vw;
+    height: auto;
+}
+/*onboarding*/
+.onboarding-images{
+    padding-left: 10vw;
+}
+.onboarding-1{
+    width: 40vw;
+    height: auto;
+}
+.onboarding-2{
+    width: 40vw;
+    height: auto;
+}
 /*GRID PORTFOLIO*/
 @media screen and (min-width: 500px) {
     .theme-box {
