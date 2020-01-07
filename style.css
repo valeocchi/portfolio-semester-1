@@ -92,7 +92,7 @@ body {
     }
 }
 
-/*HOME PAGE*/
+/**HOME PAGE**/
 
 /*NEON SIGN*/
 
@@ -239,6 +239,7 @@ body {
     margin: 20px;
     grid-area: th-5;
 }
+
 /**BASIC WEB PAGE**/
 .images-basic-web{
     padding-left: 17vw;
@@ -252,6 +253,38 @@ body {
     margin: 20px;
     background: white;
     width: 30vw;
+    height: auto;
+}
+
+/**BASIC UX PAGE**/
+
+/*data collection*/
+.data-images{
+    padding-left: 2vw;
+    text-align: center;
+}
+.graph-1{
+    width: 30vw;
+    height: auto;
+}
+.graph-2{
+    width: 29vw;
+    height: auto;
+}
+/*Prototype*/
+.prototype-images{
+    padding-left: 12vw;
+}
+.prototype-1{
+    width: 20vw;
+    height: auto;
+}
+.prototype-2{
+    width: 30vw;
+    height: auto;
+}
+.prototype-3{
+    width: 23vw;
     height: auto;
 }
 /*GRID PORTFOLIO*/
